@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
+  "rss": "https://github.com/ivan919/ntmcore/commits/main.atom",
   "servers": [
     {
       "id": "^NTM^ Core^-1.12.2",
@@ -15,11 +10,6 @@
       "version": "1.0.0",
       "address": "ntmcore.playingfor.fun:25565",
       "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
