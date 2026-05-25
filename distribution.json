@@ -1,11 +1,5 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
   "servers": [
     {
       "id": "^NTM^ Core^-1.12.2",
@@ -15,11 +9,6 @@
       "version": "1.0.0",
       "address": "ntmcore.playingfor.fun:25565",
       "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
@@ -266,6 +255,26 @@
           }
         },
         {
+          "id": "net.geforcemods:securitycraft:v1.10.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4265305,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/1.12.2-securitycraft-v1.10.1.jar",
+            "MD5": "f18b016583112c4d73b4111b3d39a08f"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:rv6-stable-7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4062630,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/appliedenergistics2-rv6-stable-7.jar",
+            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28"
+          }
+        },
+        {
           "id": "io.authmod:authmod:1.0@jar",
           "name": "AuthMod",
           "type": "ForgeMod",
@@ -273,6 +282,16 @@
             "size": 636180,
             "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/authmod-1.0.jar",
             "MD5": "6395b3424ddfc3ecda4610a064c43a8e"
+          }
+        },
+        {
+          "id": "brad16840:backpacks16840:3.5.12@jar",
+          "name": "Backpacks!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1278578,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/backpacks1.12.2-3.5.12.jar",
+            "MD5": "280da1bb3672a01d44286507f79a86de"
           }
         },
         {
