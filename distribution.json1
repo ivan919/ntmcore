@@ -1,0 +1,400 @@
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "^NTM^ Core^-1.12.2",
+      "name": "^NTM^ Core^ (Minecraft 1.12.2)",
+      "description": "^NTM^ Core^ Running Minecraft 1.12.2 (Forge v14.23.5.2864)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "ntmcore.playingfor.fun:25565",
+      "minecraftVersion": "1.12.2",
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2864:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4301162,
+            "MD5": "f7e3bd1e18b2cf81691f1d565eeb40ba",
+            "url": "https://ivan919.github.io/ntmcore/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2864/forge-1.12.2-14.23.5.2864-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2864",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11797,
+                "MD5": "345315b61ff6f803997f63efaff587bb",
+                "url": "https://ivan919.github.io/ntmcore/repo/versions/1.12.2-forge-14.23.5.2864/1.12.2-forge-14.23.5.2864.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://ivan919.github.io/ntmcore/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "zone.rong.mixinbooter:mixinbooter:10.7@jar",
+          "name": "MixinBooter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2383999,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/!mixinbooter-10.7.jar",
+            "MD5": "a3221aff1677d5c4192efc43452bf37a"
+          }
+        },
+        {
+          "id": "io.authmod:authmod:1.0@jar",
+          "name": "AuthMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 636180,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/authmod-1.0.jar",
+            "MD5": "6395b3424ddfc3ecda4610a064c43a8e"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
+          "name": "CTM",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199045,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/CTM-MC1.12.2-1.0.2.31.jar",
+            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864"
+          }
+        },
+        {
+          "id": "com.feed_the_beast.mods:ftbbackups:1.1.0.1@jar",
+          "name": "FTB Backups",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43764,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/ftbbackups-1.1.0.1.jar",
+            "MD5": "932a6981ff08c35bbdf83bb9f7af8d17"
+          }
+        },
+        {
+          "id": "com.feed_the_beast:ftblib:5.4.7.2@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 934370,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/ftblib-5.4.7.2.jar",
+            "MD5": "ea749a3a3391d490ffcdf025e5de48d9"
+          }
+        },
+        {
+          "id": "com.feed_the_beast:ftbutilities:5.4.1.131@jar",
+          "name": "FTB Utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 425832,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/ftbutilities-5.4.1.131.jar",
+            "MD5": "94775ab675e0204523c9f267976b70d5"
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/hwyla-1.8.26-b41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:0.1.0@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28775,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/jade-0.1.0.jar",
+            "MD5": "0054311c7e71906f1f3f8334adb53600"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.1013@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 655406,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/jei_1.12.2-4.16.1.1013.jar",
+            "MD5": "155469b1e6be853ba4b273044bc4a68e"
+          }
+        },
+        {
+          "id": "com.hbm.main:hbm:2.5.0.2@jar",
+          "name": "Hbm's Nuclear Tech - Community Edition",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73765966,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/ntm-ce-2.5.0.2.jar",
+            "MD5": "5f5f63ca7c8955ff701fb73152d612e4"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.12.2-2.6.16@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5854606,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/voicechat-forge-1.12.2-2.6.16.jar",
+            "MD5": "c69a613e9bd50206a439b6536d178726"
+          }
+        },
+        {
+          "id": "xaero.lib:xaerolib:1.1.0@jar",
+          "name": "XaeroLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 597314,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/xaerolib-forge-1.12.2-1.1.0.jar",
+            "MD5": "56937f0da869cd049d0a3880fff4d485"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1992435,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/xaerominimap-forge-1.12.2-25.3.10.jar",
+            "MD5": "03def78b22ae207ff6a1c245ab737c7c"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.40.11@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 924187,
+            "url": "https://ivan919.github.io/ntmcore/servers/%5ENTM%5E%20Core%5E-1.12.2/forgemods/required/xaeroworldmap-forge-1.12.2-1.40.11.jar",
+            "MD5": "742b5fb276d1f16fba02d6f56d51fe62"
+          }
+        }
+      ]
+    }
+  ]
+}
